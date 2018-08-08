@@ -234,6 +234,10 @@ header.masthead h2 {
   header.masthead h2 {
     font-size: 1.75em;
   }
+  .moblie-only-photos {
+    display: none;
+
+  }
 }
 
 .photos {
@@ -265,6 +269,13 @@ header.masthead h2 {
 #caption-text{
   font-size: 0.15em;
   padding: 2px 5px;
+}
+.moblie-only-photos {
+  margin-top:  -50px;
+  padding: 10px;
+}
+.moblie-only-photos a:hover{
+  text-decoration: none;
 }
 
 @media (min-width: 576px) {
